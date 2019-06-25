@@ -20,114 +20,59 @@ public class SimpleSQL {
 
         int index = 1;
         String condition = null;
+        String tabela = null;
         Map<String, String> mapAtributo = new TreeMap<>();
         Map<String, String> mapCondicao = new TreeMap<>();
         if(query != null && msg == null){
             String[] map = query.split(" ");
-            String[] mapFinal = query.split(";");
 
             type = map[0];
             switch (type){
                 case "SELECT":
-                    while (!map[index].equals("FROM")){
-                        mapAtributo.put(map[index].toUpperCase(), map[index]);
-                        index++;
+                    while(!map[index].equals(";") && map.length != index + 1 ){
+                        System.out.println(index);
+                            while (!map[index].equals("FROM") || !map[index].equals(tabela)) {
+                                if(map[index].equals("WHERE")) {
+                                    break;
+                                }
+                                    mapAtributo.put(map[index].toUpperCase(), map[index]);
+                                    System.out.println(mapAtributo);
+                                    index++;
+                            }
+                            if(map[index].equals("FROM")) {
+                                tabela = map[index + 1];
+                                index++;
+                            }
+                        if(map[index].equals("WHERE")) {
+                            while (!map[index].equals("WHERE")) {
+                                mapCondicao.put(map[index].toUpperCase(), map[index]);
+                                System.out.println(mapCondicao);
+                                index++;
+                            }
+                        }
+//                        index++;
                     }
-                    while(!map[index + 2].equals("WHERE")) {
-                        int indexWhere = index + 3;
-                        mapCondicao.put(map[indexWhere].toUpperCase(), map[indexWhere]);
-                        System.out.println(mapCondicao);
-                        indexWhere++;
-                    }
-                    if(map.length == mapFinal.length + 1){
-//                        mapCondicao.put(map[index + 3], map[index + 4]);
-//                        System.out.println(mapCondicao);
-                        select(map[index + 1], mapAtributo, mapCondicao);
-                    }
-
+                    new Select(tabela, mapAtributo, mapCondicao);
                     break;
-                case "INSERT":
-                    index = 3;
-                    String row = "";
-                    while (index < map.length){
-                        if(row.equals("")) row = map[index];
-                        else row = row + "-" + map[index];
-                        index++;
-                    }
-                    insert(map[1], row);
-                    break;
-                case "UPDATE":
-
-                case "DELETE":
+//                case "INSERT":
+//                    index = 3;
+//                    String row = "";
+//                    while (index < map.length){
+//                        if(row.equals("")) row = map[index];
+//                        else row = row + "-" + map[index];
+//                        index++;
+//                    }
+//                    insert(map[1], row);
+//                    break;
+//                case "UPDATE":
+//
+//                case "DELETE":
             }
         }
         if (msg == null) {
             System.out.println("\n-> FIM");
         } else {
             System.out.println(msg);
-        }
-    }
-
-    /**
-     * @apiNote seleciona um registro de uma tabela
-     * @param input
-     * @param mapAtributo
-     * @param mapCondition
-     * @return tabela
-    **/
-    public static void select(String input, Map<String, String>  mapAtributo, Map<String, String> mapCondition){
-        String database = PATH + input + ".txt";
-        try{
-
-            /** instancia as listas das tabelas **/
-            Tabela dataTable = new Tabela();
-            dataTable.setBody(new ArrayList<>());
-            dataTable.setHeader(new ArrayList<>());
-
-            /** Lê o arquivo (tabela) **/
-            BufferedReader file = new BufferedReader(new FileReader(database));
-
-            /** Pega a quantidade de linhas e colunas do arquivo (tabela) **/
-            String tabela[][] = getTable(file, getDimensions(new BufferedReader(new FileReader(database))));
-
-            /** Caso nenhum campo seja especificado, retorna todos **/
-            if(mapAtributo == null || mapAtributo.get("*") != null || mapAtributo.isEmpty()){
-                for(int index = 0; index < tabela[0].length; index++){
-                    mapAtributo.put(tabela[0][index].toUpperCase(), tabela[0][index]);
-                }
-                mapAtributo.remove("*");
-            }
-
-            /** percorre as linhas e colunas e cria uma TABELA **/
-            for(int linha = 0; linha < tabela.length; linha++){
-
-                /** Adiciona a cláusula WHERE **/
-                if(mapCondition == null){
-                    System.out.println("Erro em campo Where, sem especificação");
-                } else {
-                    if(linha > 0 && mapCondition != null ) continue;;
-                }
-//                if(linha > 0 && condition != null && !tabela[linha][0].equals(condition)) continue;
-
-                for(int coluna = 0; coluna < tabela.length; coluna++){
-                    if(coluna < tabela[0].length && mapAtributo.get(tabela[0][coluna]) != null){
-                        /** header **/
-                        if(linha == 0){
-                            dataTable.getHeader().add(tabela[linha][coluna]);
-                        }
-                        /** body **/
-                        else{
-                            dataTable.getBody().add(tabela[linha][coluna]);
-                        }
-                    }
-                }
-            }
-
-            /** Printa a TABELA **/
-            printaTabela(dataTable);
-
-        }catch(IOException ioe){
-            ioe.printStackTrace();
         }
     }
 
@@ -166,7 +111,7 @@ public class SimpleSQL {
         /** Instancia um map de atributos default **/
         Map<String, String> defaultMap = new TreeMap<>();
         defaultMap.put("*", "*");
-        select(input, defaultMap, null);
+        new Select(input,defaultMap,null);
     }
 
     /**
