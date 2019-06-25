@@ -24,6 +24,8 @@ public class SimpleSQL {
         Map<String, String> mapCondicao = new TreeMap<>();
         if(query != null && msg == null){
             String[] map = query.split(" ");
+            String[] mapFinal = query.split(";");
+
             type = map[0];
             switch (type){
                 case "SELECT":
@@ -31,17 +33,25 @@ public class SimpleSQL {
                         mapAtributo.put(map[index].toUpperCase(), map[index]);
                         index++;
                     }
-                    if((index + 5) == map.length && map[index + 2].equals("WHERE")){
-                        mapCondicao.put(map[index + 3], map[index + 4]);
+                    while(!map[index + 2].equals("WHERE")) {
+                        int indexWhere = index + 3;
+                        mapCondicao.put(map[indexWhere].toUpperCase(), map[indexWhere]);
+                        System.out.println(mapCondicao);
+                        indexWhere++;
                     }
-                    select(map[index + 1], mapAtributo, condition);
+                    if(map.length == mapFinal.length + 1){
+//                        mapCondicao.put(map[index + 3], map[index + 4]);
+//                        System.out.println(mapCondicao);
+                        select(map[index + 1], mapAtributo, mapCondicao);
+                    }
+
                     break;
                 case "INSERT":
                     index = 3;
                     String row = "";
                     while (index < map.length){
                         if(row.equals("")) row = map[index];
-                        else row = row + "-" +map[index];
+                        else row = row + "-" + map[index];
                         index++;
                     }
                     insert(map[1], row);
@@ -62,9 +72,10 @@ public class SimpleSQL {
      * @apiNote seleciona um registro de uma tabela
      * @param input
      * @param mapAtributo
+     * @param mapCondition
      * @return tabela
     **/
-    public static void select(String input, Map<String, String>  mapAtributo, String condition){
+    public static void select(String input, Map<String, String>  mapAtributo, Map<String, String> mapCondition){
         String database = PATH + input + ".txt";
         try{
 
@@ -91,7 +102,12 @@ public class SimpleSQL {
             for(int linha = 0; linha < tabela.length; linha++){
 
                 /** Adiciona a cláusula WHERE **/
-                if(linha > 0 && condition != null && !tabela[linha][0].equals(condition)) continue;
+                if(mapCondition == null){
+                    System.out.println("Erro em campo Where, sem especificação");
+                } else {
+                    if(linha > 0 && mapCondition != null ) continue;;
+                }
+//                if(linha > 0 && condition != null && !tabela[linha][0].equals(condition)) continue;
 
                 for(int coluna = 0; coluna < tabela.length; coluna++){
                     if(coluna < tabela[0].length && mapAtributo.get(tabela[0][coluna]) != null){
