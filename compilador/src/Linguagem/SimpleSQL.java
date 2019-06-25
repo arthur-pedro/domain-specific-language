@@ -7,8 +7,8 @@ import java.util.*;
 
 public class SimpleSQL {
 
-//    public static final String PATH = "C:\\Users\\Rebec\\Documents\\Intellij\\domain-specific-labguage\\src\\Banco\\";
-    public static final String PATH = "C:\\Users\\arthu\\Documents\\GitHub\\domain-pecifc-language\\domain-specific-labguage\\src\\Banco\\";
+    public static final String PATH = "D:\\GitHub\\Compiladores\\domain-specific-language\\compilador\\src\\Banco\\";
+//    public static final String PATH = "C:\\Users\\arthu\\Documents\\GitHub\\domain-pecifc-language\\domain-specific-labguage\\src\\Banco\\";
 
     public static String type;
 
