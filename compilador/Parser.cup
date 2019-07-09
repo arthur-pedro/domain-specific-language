@@ -6,6 +6,7 @@ import tree.*;
 terminal SELECT, INSERT, UPDATE, DELETE, FROM, VALEUS, SET ;
 
 non terminal valor, comando, lista_valores, table, lista_condicao, condicao;
+//AJEITAR
 
 start with query;
 
