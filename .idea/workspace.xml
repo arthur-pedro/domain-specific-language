@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="80d00f2c-4bef-48db-b990-dd0ed4f6279f" name="Default Changelist" comment="" />
+    <list default="true" id="fc26b453-d104-4a2f-a34c-2016e808e5fd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compilador/src/Banco/usuario.txt" beforeDir="false" afterPath="$PROJECT_DIR$/compilador/src/Banco/usuario.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compilador/src/Linguagem/Delete.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compilador/src/Linguagem/Insert.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compilador/src/Linguagem/Select.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compilador/src/Linguagem/SimpleSQL.java" beforeDir="false" afterPath="$PROJECT_DIR$/compilador/src/Linguagem/SimpleSQL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compilador/src/Linguagem/Update.java" beforeDir="false" afterPath="$PROJECT_DIR$/compilador/src/Linguagem/Update.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,28 +25,35 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/domain-specific-labguage/src/Main.java">
+        <entry file="file://$PROJECT_DIR$/compilador/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="153">
+              <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+              <folding>
+                <element signature="e#258#259#0" expanded="true" />
+                <element signature="e#294#295#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/domain-specific-labguage/src/Linguagem/SimpleSQL.java">
+        <entry file="file://$PROJECT_DIR$/compilador/src/Linguagem/Select.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="34" column="35" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="35" />
+            <state relative-caret-position="-238">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/domain-specific-labguage/src/Banco/usuario.txt">
+        <entry file="file://$PROJECT_DIR$/compilador/src/Linguagem/SimpleSQL.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+            <state relative-caret-position="34">
+              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -50,67 +67,74 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>mapAtributo</find>
-      <find>dataTable</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/domain-specific-labguage/src/Linguagem/Operacoes.java" />
-        <option value="$PROJECT_DIR$/domain-specific-labguage/src/Linguagem/SimpleSQL.java" />
-        <option value="$PROJECT_DIR$/domain-specific-labguage/src/Banco/usuario.txt" />
-        <option value="$PROJECT_DIR$/domain-specific-labguage/src/Main.java" />
+        <option value="$PROJECT_DIR$/compilador/src/Correct/Correct.java" />
+        <option value="$PROJECT_DIR$/compilador/src/Lex/Correct.java" />
+        <option value="$PROJECT_DIR$/compilador/src/Lex/Lex.java" />
+        <option value="$PROJECT_DIR$/compilador/src/Linguagem/Run.java" />
+        <option value="$PROJECT_DIR$/compilador/src/Linguagem/Select.java" />
+        <option value="$PROJECT_DIR$/compilador/src/Linguagem/Comandos/Select.java" />
+        <option value="$PROJECT_DIR$/compilador/src/Linguagem/Query.java" />
+        <option value="$PROJECT_DIR$/compilador/src/Linguagem/SimpleSQL.java" />
+        <option value="$PROJECT_DIR$/compilador/src/Main.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="959" />
-    <option name="width" value="414" />
-    <option name="height" value="735" />
+    <option name="x" value="170" />
+    <option name="y" value="91" />
+    <option name="width" value="1026" />
+    <option name="height" value="546" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="domain-pecifc-language" type="b2602c69:ProjectViewProjectNode" />
-              <item name="domain-specific-labguage" type="462c0819:PsiDirectoryNode" />
+              <item name="projetoCompiladores" type="b2602c69:ProjectViewProjectNode" />
+              <item name="compilador" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="domain-pecifc-language" type="b2602c69:ProjectViewProjectNode" />
-              <item name="domain-specific-labguage" type="462c0819:PsiDirectoryNode" />
+              <item name="projetoCompiladores" type="b2602c69:ProjectViewProjectNode" />
+              <item name="compilador" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="domain-pecifc-language" type="b2602c69:ProjectViewProjectNode" />
-              <item name="domain-specific-labguage" type="462c0819:PsiDirectoryNode" />
+              <item name="projetoCompiladores" type="b2602c69:ProjectViewProjectNode" />
+              <item name="compilador" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Banco" type="462c0819:PsiDirectoryNode" />
+              <item name="Lex" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projetoCompiladores" type="b2602c69:ProjectViewProjectNode" />
+              <item name="compilador" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Linguagem" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -124,65 +148,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Unnamed" type="Applet" nameIsGenerated="true">
-      <module name="domain-specific-labguage" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="domain-specific-labguage" />
+      <module name="compilador" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Applet.Unnamed" />
-      <item itemvalue="Application.Main" />
-    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="80d00f2c-4bef-48db-b990-dd0ed4f6279f" name="Default Changelist" comment="" />
-      <created>1561081832149</created>
+      <changelist id="fc26b453-d104-4a2f-a34c-2016e808e5fd" name="Default Changelist" comment="" />
+      <created>1561467471088</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1561081832149</updated>
+      <updated>1561467471088</updated>
     </task>
-    <task id="LOCAL-00001" summary="mensagem teste">
-      <created>1561081940683</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1561081940684</updated>
-    </task>
-    <task id="LOCAL-00002" summary="correção de bug">
-      <created>1561083239824</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1561083239824</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Implementação: Insert">
-      <created>1561179737436</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1561179737436</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17397882" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13993949" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -191,15 +183,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" x="9" y="7" width="1348" height="714" id="Run" order="2" weight="0.5646481" />
-      <window_info anchor="bottom" x="0" y="1" width="1371" height="726" id="Debug" order="3" weight="0.3633388" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.40261865" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.36006546" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3289689" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3289689" />
+      <window_info anchor="bottom" id="Messages" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -210,95 +202,203 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="mensagem teste" />
-    <MESSAGE value="correção de bug" />
-    <MESSAGE value="Implementação: Insert" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementação: Insert" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>mapCondicao</expression-string>
+        <expression-string>query</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>map[index + 2]</expression-string>
+        <expression-string>tabela[linha][coluna]</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>map.length</expression-string>
+        <expression-string>mapAtributo</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>(index + 4) == map.length</expression-string>
+        <expression-string>mapAtributo.get(tabela[linha][coluna])</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>index</expression-string>
+        <expression-string>tabela[linha]</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>(map.length</expression-string>
+        <expression-string>tabela[linha].length</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>(index + 3)</expression-string>
+        <expression-string>tabela.length</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>(index + 3) == map.length</expression-string>
+        <expression-string>tabela[0][0]</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>tabela[l-1][c].length()</expression-string>
+        <expression-string>tabela[0]</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/domain-specific-labguage/src/Tabela/Tabela.java">
+    <entry file="file://$PROJECT_DIR$/compilador/src/Tabela/Tabela.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/domain-specific-labguage/src/Linguagem/Query.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/io/FileInputStream.java">
+    <entry file="file://$PROJECT_DIR$/compilador/src/Linguagem/Run.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="194" selection-start-line="194" selection-end-line="194" />
+        <state relative-caret-position="51">
+          <caret line="5" column="5" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="5" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/domain-specific-labguage/src/Main.java">
+    <entry file="file://$PROJECT_DIR$/compilador/src/Linguagem/Comandos/Delete.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/domain-specific-labguage/src/Linguagem/SimpleSQL.java">
+    <entry file="file://$PROJECT_DIR$/compilador/src/Linguagem/Comandos/Insert.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="34" column="35" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="35" />
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/domain-specific-labguage/src/Banco/usuario.txt">
+    <entry file="file://$PROJECT_DIR$/compilador/src/Linguagem/Update.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compilador/src/Linguagem/Query.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="15" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="15" />
+          <folding>
+            <element signature="e#253#254#0" expanded="true" />
+            <element signature="e#282#283#0" expanded="true" />
+            <element signature="e#326#327#0" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
+            <element signature="e#408#409#0" expanded="true" />
+            <element signature="e#437#438#0" expanded="true" />
+            <element signature="e#494#495#0" expanded="true" />
+            <element signature="e#530#531#0" expanded="true" />
+            <element signature="e#577#578#0" expanded="true" />
+            <element signature="e#607#608#0" expanded="true" />
+            <element signature="e#666#667#0" expanded="true" />
+            <element signature="e#704#705#0" expanded="true" />
+            <element signature="e#753#754#0" expanded="true" />
+            <element signature="e#785#786#0" expanded="true" />
+            <element signature="e#848#849#0" expanded="true" />
+            <element signature="e#890#891#0" expanded="true" />
+            <element signature="e#1003#1004#0" expanded="true" />
+            <element signature="e#1031#1032#0" expanded="true" />
+            <element signature="e#1073#1074#0" expanded="true" />
+            <element signature="e#1107#1108#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compilador/src/Linguagem/Comandos/Select.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#683#684#0" expanded="true" />
+            <element signature="e#716#717#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compilador/src/Lex/Lex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="55" column="26" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compilador/src/Linguagem/SimpleSQL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compilador/src/Linguagem/Select.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-238">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compilador/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <folding>
+            <element signature="e#258#259#0" expanded="true" />
+            <element signature="e#294#295#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
