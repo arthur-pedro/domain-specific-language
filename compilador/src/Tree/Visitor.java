@@ -15,4 +15,8 @@ public interface Visitor<C> {
         C visit(Condicao condicao);
 
         C visit(Valor valor);
+
+        C visit(Campos campos);
+
+        C visit(Valores valores);
 }

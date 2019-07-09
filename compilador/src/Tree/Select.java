@@ -2,10 +2,10 @@ package Tree;
 
 public class Select extends Com {
 
-    public Exp campos;
+    public Campos campos;
     public Tabela tabela;
 
-    public Select(Exp campos, Tabela tabela) {
+    public Select(Campos campos, Tabela tabela) {
         this.campos = campos;
         this.tabela = tabela;
     }

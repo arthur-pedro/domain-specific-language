@@ -2,17 +2,17 @@ package Tree;
 
 public class Insert extends Com{
 
-    public Exp campo;
-    public Valor valor;
+    public Campos campos;
+    public Valores valores;
 
-    public Insert(Exp campo, Valor valor) {
-        this.campo = campo;
-        this.valor = valor;
+    public Insert(Campos campos, Valores valores) {
+        this.campos = campos;
+        this.valores = valores;
     }
 
     public <C> C accept(Visitor<C> v) {return v.visit(this);}
 
     public String toString() {
-        return "INSERT INTO (" + campo + ") VALUES (" + valor + ")";
+        return "INSERT INTO (" + campos + ") VALUES (" + valores + ")";
     }
 }
