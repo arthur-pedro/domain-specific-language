@@ -2,12 +2,17 @@ package Tree;
 
 public interface Visitor<C> {
 
-        C visit(Valor valor);
+        C visit(Select condicao);
+
+        C visit(Tabela tabela);
+
+        C visit(Update update);
+
+        C visit(Insert insert);
+
+        C visit(Delete delete);
 
         C visit(Condicao condicao);
 
-        C visit(ListaValores listaValores);
-
-        C visit(ListaCondicoes listaCondicoes);
-
+        C visit(Valor valor);
 }

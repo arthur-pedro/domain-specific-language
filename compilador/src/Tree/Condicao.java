@@ -1,10 +1,20 @@
 package Tree;
 
-public abstract class Condicao {
+public class Condicao extends Exp{
 
-    public Condicao() {
+    public Exp campo;
+    public String operacao;
+    public Exp valor;
+
+    public Condicao(Exp campo,String operacao,Exp valor) {
+        this.campo = campo;
+        this.operacao = operacao;
+        this.valor = valor;
     }
 
-    public abstract <C> C accept(Visitor<C> condicao);
+    public <C> C accept(Visitor<C> v) {return v.visit(this);}
+
+    public String toString() { return campo + operacao + valor; }
+
 
 }
