@@ -19,4 +19,6 @@ public interface Visitor<C> {
         C visit(Campos campos);
 
         C visit(Valores valores);
+
+        C visit(Campo campo);
 }

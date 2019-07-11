@@ -11,6 +11,6 @@ public class Valor extends Exp {
     public <C> C accept(Visitor<C> v) {return v.visit(this);}
 
     public String toString() {
-        return valor;
+        return "" + valor;
     }
 }

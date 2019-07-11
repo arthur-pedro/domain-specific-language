@@ -10,5 +10,5 @@ public class Tabela extends Exp{
 
     public <C> C accept(Visitor<C> v) {return v.visit(this);}
 
-    public String toString() { return tabela; }
+    public String toString() { return "" + tabela; }
 }

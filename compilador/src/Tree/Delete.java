@@ -2,10 +2,10 @@ package Tree;
 
 public class Delete extends Com {
 
-    public Tabela tabela;
-    public Condicao condicao;
+    public Exp tabela;
+    public Exp condicao;
 
-    public Delete(Tabela tabela, Condicao condicao) {
+    public Delete(Exp tabela, Exp condicao) {
         this.tabela = tabela;
         this.condicao = condicao;
     }

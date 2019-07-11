@@ -2,13 +2,13 @@ package Tabela;
 
 import java.util.List;
 
-public class Tabela{
+public class DataTable {
 
    private List<String> header;
 
    private List<String> body;
 
-    public Tabela() {
+    public DataTable() {
     }
 
     public List<String> getHeader() {

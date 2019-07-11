@@ -1,13 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fc26b453-d104-4a2f-a34c-2016e808e5fd" name="Default Changelist" comment="">
+    <list default="true" id="975b2fd9-c8ce-427e-88c9-2940432ccc61" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compilador/Parser.cup" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/compilador/src/Linguagem/SimpleSQL.java" beforeDir="false" afterPath="$PROJECT_DIR$/compilador/src/Linguagem/SimpleSQL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compilador/compilador.iml" beforeDir="false" afterPath="$PROJECT_DIR$/compilador/compilador.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compilador/src/Banco/turma.txt" beforeDir="false" afterPath="$PROJECT_DIR$/compilador/src/Banco/turma.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compilador/src/Lex/Lex.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compilador/src/Linguagem/Delete.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compilador/src/Linguagem/Insert.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compilador/src/Linguagem/Select.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compilador/src/Linguagem/SimpleSQL.java" beforeDir="false" afterPath="$PROJECT_DIR$/compilador/src/Util/SimpleSQL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compilador/src/Linguagem/Update.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/compilador/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/compilador/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compilador/src/Modelo/Usuario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compilador/src/Tabela/Tabela.java" beforeDir="false" afterPath="$PROJECT_DIR$/compilador/src/Tabela/DataTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compilador/src/Tree/Condicao.java" beforeDir="false" afterPath="$PROJECT_DIR$/compilador/src/Tree/Condicao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compilador/src/Tree/Delete.java" beforeDir="false" afterPath="$PROJECT_DIR$/compilador/src/Tree/Delete.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compilador/src/Tree/Insert.java" beforeDir="false" afterPath="$PROJECT_DIR$/compilador/src/Tree/Insert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compilador/src/Tree/Select.java" beforeDir="false" afterPath="$PROJECT_DIR$/compilador/src/Tree/Select.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compilador/src/Tree/Tabela.java" beforeDir="false" afterPath="$PROJECT_DIR$/compilador/src/Tree/Tabela.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compilador/src/Tree/Update.java" beforeDir="false" afterPath="$PROJECT_DIR$/compilador/src/Tree/Update.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compilador/src/Tree/Valor.java" beforeDir="false" afterPath="$PROJECT_DIR$/compilador/src/Tree/Valor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compilador/src/Tree/Visitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/compilador/src/Tree/Visitor.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,30 +33,54 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand />
-    <select />
-  </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="isMigrated" value="true" />
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/compilador/Scanner.jflex">
+        <entry file="file://$PROJECT_DIR$/compilador/src/Util/Documentação">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+            <state relative-caret-position="357">
+              <caret line="21" column="59" selection-start-line="21" selection-start-column="59" selection-end-line="21" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/compilador/src/Avaliador.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="48" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3040#3041#0" expanded="true" />
+                <element signature="e#3067#3068#0" expanded="true" />
+                <element signature="e#4682#4683#0" expanded="true" />
+                <element signature="e#4709#4710#0" expanded="true" />
+                <element signature="e#4765#4766#0" expanded="true" />
+                <element signature="e#4792#4793#0" expanded="true" />
+                <element signature="e#4852#4853#0" expanded="true" />
+                <element signature="e#4879#4880#0" expanded="true" />
+                <element signature="e#4933#4934#0" expanded="true" />
+                <element signature="e#4960#4961#0" expanded="true" />
+                <element signature="e#5016#5017#0" expanded="true" />
+                <element signature="e#5043#5044#0" expanded="true" />
+                <element signature="e#5101#5102#0" expanded="true" />
+                <element signature="e#5128#5129#0" expanded="true" />
+                <element signature="e#5182#5183#0" expanded="true" />
+                <element signature="e#5209#5210#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/compilador/src/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -53,47 +94,55 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>select</find>
+      <find>syn</find>
+      <find>sym</find>
+      <find>datatable</find>
+      <find>separa</find>
+      <find>SEPARA</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/compilador/src/Correct/Correct.java" />
-        <option value="$PROJECT_DIR$/compilador/src/Lex/Correct.java" />
-        <option value="$PROJECT_DIR$/compilador/src/Lex/Lex.java" />
-        <option value="$PROJECT_DIR$/compilador/src/Linguagem/Run.java" />
-        <option value="$PROJECT_DIR$/compilador/src/Linguagem/Select.java" />
-        <option value="$PROJECT_DIR$/compilador/src/Linguagem/Comandos/Select.java" />
-        <option value="$PROJECT_DIR$/compilador/src/Linguagem/Query.java" />
-        <option value="$PROJECT_DIR$/compilador/src/Tree/ListaCondicoes.java" />
-        <option value="$PROJECT_DIR$/compilador/src/Tree/ListaValores.java" />
-        <option value="$PROJECT_DIR$/compilador/src/Tree/Com.java" />
-        <option value="$PROJECT_DIR$/compilador/src/Tree/Exp.java" />
-        <option value="$PROJECT_DIR$/compilador/src/Tree/Tabela.java" />
-        <option value="$PROJECT_DIR$/compilador/src/Tree/Condicao.java" />
         <option value="$PROJECT_DIR$/compilador/src/Tree/Delete.java" />
         <option value="$PROJECT_DIR$/compilador/src/Tree/Update.java" />
+        <option value="$PROJECT_DIR$/compilador/src/Tree/Condicao.java" />
+        <option value="$PROJECT_DIR$/compilador/src/Tree/Campo.java" />
         <option value="$PROJECT_DIR$/compilador/src/Tree/Valor.java" />
-        <option value="$PROJECT_DIR$/compilador/src/Tree/Select.java" />
+        <option value="$PROJECT_DIR$/compilador/src/Parser.java" />
         <option value="$PROJECT_DIR$/compilador/src/Tree/Valores.java" />
-        <option value="$PROJECT_DIR$/compilador/src/Tree/Visitor.java" />
-        <option value="$PROJECT_DIR$/compilador/src/Tree/Insert.java" />
         <option value="$PROJECT_DIR$/compilador/src/Tree/Campos.java" />
-        <option value="$PROJECT_DIR$/compilador/Parser.cup" />
+        <option value="$PROJECT_DIR$/compilador/src/Sym.java" />
         <option value="$PROJECT_DIR$/compilador/src/Scanner.java" />
+        <option value="$PROJECT_DIR$/compilador/src/sym.java" />
+        <option value="$PROJECT_DIR$/compilador/src/Tree/Visitor.java" />
+        <option value="$PROJECT_DIR$/compilador/src/Tree/Select.java" />
+        <option value="$PROJECT_DIR$/compilador/src/Util/SimpleSQL.java" />
         <option value="$PROJECT_DIR$/compilador/src/Main.java" />
-        <option value="$PROJECT_DIR$/compilador/src/Linguagem/SimpleSQL.java" />
+        <option value="$PROJECT_DIR$/compilador/src/Tree/Tabela.java" />
+        <option value="$PROJECT_DIR$/compilador/src/Tree/Insert.java" />
         <option value="$PROJECT_DIR$/compilador/Scanner.jflex" />
+        <option value="$PROJECT_DIR$/compilador/src/Banco/turma.txt" />
+        <option value="$PROJECT_DIR$/compilador/src/Avaliador.java" />
+        <option value="$PROJECT_DIR$/compilador/Parser.cup" />
+        <option value="$PROJECT_DIR$/compilador/input.imp" />
+        <option value="$PROJECT_DIR$/compilador/src/Util/Documentação" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="957" />
-    <option name="width" value="415" />
-    <option name="height" value="735" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
@@ -101,16 +150,15 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Intellij" type="b2602c69:ProjectViewProjectNode" />
+              <item name="domain-specific-language" type="b2602c69:ProjectViewProjectNode" />
               <item name="compilador" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Intellij" type="b2602c69:ProjectViewProjectNode" />
+              <item name="domain-specific-language" type="b2602c69:ProjectViewProjectNode" />
               <item name="compilador" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -118,20 +166,25 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/compilador" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="configurable.group.language" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Rebec\Intellij\compilador\src" />
+      <recent name="C:\Users\arthu\Documents\GitHub\domain-specific-language\compilador\src" />
+      <recent name="C:\Users\arthu\Documents\GitHub\domain-specific-language\compilador" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\arthu\Documents\GitHub\domain-specific-language\compilador" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -160,361 +213,420 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="fc26b453-d104-4a2f-a34c-2016e808e5fd" name="Default Changelist" comment="" />
-      <created>1561467471088</created>
+      <changelist id="975b2fd9-c8ce-427e-88c9-2940432ccc61" name="Default Changelist" comment="" />
+      <created>1562813405407</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1561467471088</updated>
-      <workItem from="1562805706243" duration="4271000" />
-      <workItem from="1562811232131" duration="818000" />
+      <updated>1562813405407</updated>
     </task>
-    <task id="LOCAL-00001" summary="Ajustes">
-      <created>1562634665115</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1562634665115</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Ajustes">
-      <created>1562635264673</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1562635264673</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Tree -&gt; ajustes">
-      <created>1562643443467</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1562643443467</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Tree -&gt; ajustes">
-      <created>1562643621369</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1562643621369</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5089000" />
-  </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14630872" />
-      <window_info id="Learn" order="1" weight="0.3295302" />
-      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Designer" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24583964" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.42389524" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32960895" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.1452514" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.34369886" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.55482817" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.53846157" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3289689" />
-      <window_info anchor="bottom" id="Messages" order="10" />
-      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.24966443" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Database" order="8" weight="0.3295302" />
     </layout>
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
-              </option>
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="RECENT_FILTERS">
-      <map>
-        <entry key="Branch">
-          <value>
-            <list />
-          </value>
-        </entry>
-        <entry key="User">
-          <value>
-            <list />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Ajustes" />
-    <MESSAGE value="Tree -&gt; ajustes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tree -&gt; ajustes" />
-  </component>
-  <component name="antWorkspaceConfiguration">
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>query</expression-string>
+        <expression-string>linha</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>tabela[linha][coluna]</expression-string>
+        <expression-string>parser.parse()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>mapAtributo</expression-string>
+        <expression-string>parser</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>mapAtributo.get(tabela[linha][coluna])</expression-string>
+        <expression-string>select.campos.toString().equals(&quot;all&quot;)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>tabela[linha]</expression-string>
+        <expression-string>select.campos.toString() == &quot;all&quot;</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>tabela[linha].length</expression-string>
+        <expression-string>select.campos == &quot;all&quot;</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>tabela.length</expression-string>
+        <expression-string>select.campos</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>tabela[0][0]</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>tabela[0]</expression-string>
+        <expression-string>select.campos.equals(&quot;all&quot;)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/compilador/src/Linguagem/Run.java" />
-    <entry file="file://$PROJECT_DIR$/compilador/src/Linguagem/Comandos/Delete.java" />
-    <entry file="file://$PROJECT_DIR$/compilador/src/Linguagem/Comandos/Insert.java" />
-    <entry file="file://$PROJECT_DIR$/compilador/src/Linguagem/Update.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/compilador/src/Linguagem/Query.java" />
-    <entry file="file://$PROJECT_DIR$/compilador/src/Linguagem/Comandos/Select.java" />
-    <entry file="file://$PROJECT_DIR$/compilador/src/Linguagem/Select.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-646">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/compilador/src/Tree/ListaCondicoes.java" />
-    <entry file="file://$PROJECT_DIR$/compilador/src/Tree/ListaValores.java" />
     <entry file="file://$PROJECT_DIR$/compilador/src/Tree/Com.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/compilador/src/Tree/Visitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="9" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/compilador/src/Tree/Valores.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="57" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
-          <folding>
-            <element signature="e#283#284#0" expanded="true" />
-            <element signature="e#323#324#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/compilador/src/Tree/Exp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/compilador/src/Tree/Select.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/compilador/Parser.cup">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/compilador/Parser.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/compilador/Scanner.java" />
-    <entry file="file://$PROJECT_DIR$/compilador/src/Tree/Campos.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/compilador/src/Tree/Tabela.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/compilador/src/Tree/Valor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/compilador/src/Tree/Insert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="15" column="64" selection-start-line="15" selection-start-column="64" selection-end-line="15" selection-end-column="64" />
+        <state relative-caret-position="34">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/compilador/src/Tree/Update.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" column="66" selection-start-line="17" selection-start-column="66" selection-end-line="17" selection-end-column="66" />
-          <folding>
-            <element signature="e#379#380#0" expanded="true" />
-            <element signature="e#471#472#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="136">
+          <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/compilador/src/Tree/Delete.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+        <state relative-caret-position="119">
+          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/compilador/src/Tree/Condicao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="14" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="14" />
+        <state relative-caret-position="136">
+          <caret line="8" column="55" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/compilador/src/Lex/Lex.java">
+    <entry file="file://$PROJECT_DIR$/compilador/src/Tree/Campo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="55" column="26" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="26" />
+        <state relative-caret-position="102">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+          <folding>
+            <element signature="e#229#230#0" expanded="true" />
+            <element signature="e#262#263#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/compilador/src/Tabela/Tabela.java">
+    <entry file="file://$PROJECT_DIR$/compilador/src/Tree/Valor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding>
+            <element signature="e#229#230#0" expanded="true" />
+            <element signature="e#262#263#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/compilador/lib/java-cup-11b-runtime.jar!/java_cup/runtime/Scanner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compilador/src/Tabela/DataTable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/compilador/src/Linguagem/SimpleSQL.java">
+    <entry file="file://$PROJECT_DIR$/compilador/src/Util/Delete.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compilador/src/Util/Update.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compilador/src/Util/Insert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compilador/src/Util/Select.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-300">
+          <caret line="36" column="51" selection-start-line="33" selection-start-column="11" selection-end-line="36" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compilador/src/Util/SimpleSQL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="49" column="29" selection-start-line="49" selection-start-column="29" selection-end-line="49" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/compilador/lib/java-cup-11b-runtime.jar!/java_cup/runtime/lr_parser.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="88" selection-start-line="88" selection-end-line="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compilador/src/Tree/Tabela.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compilador/src/Tree/Select.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <element signature="e#251#252#0" expanded="true" />
+            <element signature="e#274#275#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compilador/src/sym.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compilador/src/Scanner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="554" column="19" lean-forward="true" selection-start-line="554" selection-start-column="19" selection-end-line="554" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compilador/src/Parser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="280" column="8" selection-start-line="280" selection-start-column="8" selection-end-line="280" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/compilador/src/Main.java">
+    <entry file="file://$PROJECT_DIR$/compilador/src/Tree/Campos.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="51" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
+        <state relative-caret-position="221">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/compilador/Scanner.java">
+    <entry file="file://$PROJECT_DIR$/compilador/src/Tree/Exp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="34">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compilador/src/Tree/Valores.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compilador/src/Tree/Insert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="e#289#290#0" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compilador/src/Tree/Visitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compilador/src/Banco/turma.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compilador/Parser.cup">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="19" column="52" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/compilador/Scanner.jflex">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+        <state relative-caret-position="341">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compilador/input.imp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="21" selection-start-column="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compilador/src/Avaliador.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="48" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3040#3041#0" expanded="true" />
+            <element signature="e#3067#3068#0" expanded="true" />
+            <element signature="e#4682#4683#0" expanded="true" />
+            <element signature="e#4709#4710#0" expanded="true" />
+            <element signature="e#4765#4766#0" expanded="true" />
+            <element signature="e#4792#4793#0" expanded="true" />
+            <element signature="e#4852#4853#0" expanded="true" />
+            <element signature="e#4879#4880#0" expanded="true" />
+            <element signature="e#4933#4934#0" expanded="true" />
+            <element signature="e#4960#4961#0" expanded="true" />
+            <element signature="e#5016#5017#0" expanded="true" />
+            <element signature="e#5043#5044#0" expanded="true" />
+            <element signature="e#5101#5102#0" expanded="true" />
+            <element signature="e#5128#5129#0" expanded="true" />
+            <element signature="e#5182#5183#0" expanded="true" />
+            <element signature="e#5209#5210#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compilador/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compilador/src/Util/Documentação">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="59" selection-start-line="21" selection-start-column="59" selection-end-line="21" selection-end-column="59" />
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>lib</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

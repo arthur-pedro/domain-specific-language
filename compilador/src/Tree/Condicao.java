@@ -2,11 +2,11 @@ package Tree;
 
 public class Condicao extends Exp{
 
-    public Exp campo;
+    public String campo;
     public String operacao;
-    public Exp valor;
+    public String valor;
 
-    public Condicao(Exp campo,String operacao,Exp valor) {
+    public Condicao(String campo,String operacao,String valor) {
         this.campo = campo;
         this.operacao = operacao;
         this.valor = valor;
@@ -14,7 +14,7 @@ public class Condicao extends Exp{
 
     public <C> C accept(Visitor<C> v) {return v.visit(this);}
 
-    public String toString() { return campo + operacao + valor; }
+    public String toString() { return "" + campo + operacao + valor; }
 
 
 }

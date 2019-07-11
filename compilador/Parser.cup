@@ -1,0 +1,37 @@
+
+import java_cup.runtime.*;
+import Tree.*;
+
+
+terminal SELECT, INSERT, UPDATE, DELETE, FROM, VALUES, SET, WHERE, INTO;
+terminal String VALOR;
+
+non terminal Com query, comando ;
+non terminal Exp campo, campos, condicao, tabela, valor, valores;
+
+start with query;
+
+query ::= comando:cm
+          {: RESULT = cm; :}
+           ;
+
+comando ::= SELECT:sel campos:cs FROM:fro tabela:tb{: RESULT = new Select(cs, tb); :}
+            |INSERT:ins INTO:into tabela:tb VALUES:vals valores:vs {:RESULT = new Insert(tb, vs); :}
+            |UPDATE:upd tabela:tb SET valores:vs WHERE:whe condicao:cd {:RESULT = new Update(tb, vs, cd); :}
+            |DELETE:del FROM:var tabela:tb WHERE:whe condicao:cd {:RESULT = new Delete(tb, cd); :}
+            ;
+
+valores ::= VALOR:valor {:RESULT = new Valor(valor); :}
+          | VALOR:valor1 VALOR:valor2 {: RESULT= new Valores(valor1, valor2);:};
+
+valor ::= VALOR:valor {:RESULT = new Valor(valor);:};
+
+tabela ::= VALOR:valor {: RESULT = new Tabela(valor);:};
+
+campo ::= VALOR:valor {:RESULT = new Campo(valor);:};
+
+campos ::= VALOR:valor1 VALOR:valor2 {:RESULT = new Campos(valor1, valor2);:}
+          | VALOR:valor {:RESULT = new Campo(valor);:};
+
+condicao ::= VALOR:valor {:RESULT = new Condicao(valor, valor, valor);:};
+

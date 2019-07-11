@@ -1,3 +1,9 @@
-ID-NOME-HORARIO
-1-Compiladores-7:10~8:50
-2-Sistemas distribuidos-7:10~8:50
+ID-NOME-PROFESSOR
+1-Compiladores-Luis Menezes
+2-Sistemas Dis-Tarciana Dias
+3-Estrut. de D-Byron Leite
+4-Sinais  Sis.-Diego Rativa
+5-Fisica 3    -Ivan
+6-Fisica 2    -Augusto
+7-IA          -Fernando Buarque
+8-Eletrônica  -José Paulo
