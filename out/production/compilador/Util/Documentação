@@ -1,0 +1,21 @@
+Segue a documentação do projeto na pasta /compilador/util
+
+Sintaxe da linguagem
+
+SELECT => select "campos" from "tabela"
+    exemplo1: select id nome from turma
+    exemplo2: select all from usuario
+
+INSERT => insert into "tabela" values "colunas"
+    exemplo1: insert into turma values Fisica1 Augusto
+
+DELETE => Infelizmete não deu tempo de finalizar
+
+UPDATE => Infelizmete não deu tempo de finalizar
+
+Modo de usar:
+
+1 - Abrir o arquivo input.imp
+2 - Escrever uma query obedecendo os padrões da sintaxe da linguagem (no mesmo formato apresentado nos exemplos acima)
+3 - Executar o main
+        Obs.: As tabelas são os arquivos encontrados no pacote Banco
